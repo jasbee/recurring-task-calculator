@@ -26,7 +26,11 @@ firstDate = 23/11/2016 | k = 2 | daysOfTheWeek =['Monday', 'Thursday'] | n = 4
 ----------------------------------
 
 '24/11/2016' is the first Thursday following the firstDate and is included
+
 '28/11/2016' is the first Monday following the firstDate and is also included
+
 '01/12/2016' is a Thursday and '05/12/2016' is a Monday, however because the interval k is 2 they are skipped
+
 '08/12/2016' is the 3rd Thursday and is included
+
 '12/12/2016' is the 3rd Monday and is included
