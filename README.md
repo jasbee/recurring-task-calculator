@@ -15,11 +15,14 @@ daysOfTheWeek = ["Monday", "Thursday"]
 n = 4
 
 The output will be as follows.
+
 ----------------------------------
+
 Based on the information received these are the dates of the recurring tasks: 
 ['24/11/2016', '28/11/2016', '08/12/2016', '12/12/2016']
 
 firstDate = 23/11/2016 | k = 2 | daysOfTheWeek =['Monday', 'Thursday'] | n = 4
+
 ----------------------------------
 
 '24/11/2016' is the first Thursday following the firstDate and is included
