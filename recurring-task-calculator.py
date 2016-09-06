@@ -97,10 +97,10 @@ def recurringTask(firstDate, k, daysOfTheWeek, n):
                     diff = diff + 1
     return days
 
-firstDate = "31/08/2106"
-k = 5
+firstDate = "23/11/2016"
+k = 2
 daysOfTheWeek = ["Monday", "Thursday"]
-n = 10
+n = 4
 
 print('Based on the information received these are ', end='')
 print('the dates of the recurring tasks: ')
@@ -108,3 +108,5 @@ print(recurringTask(firstDate, k, daysOfTheWeek, n))
 print('')
 print('firstDate = ' + firstDate + ' | k = ' + str(k), end='')
 print(' | daysOfTheWeek =' + str(daysOfTheWeek) + ' | n = ' + str(n))
+
+input('')
