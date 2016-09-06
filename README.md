@@ -11,7 +11,11 @@ daysOfTheWeek - a list of weekdays to repeat on.  For example ["Monday", "Thursd
 
 n - a number of times to repeat.  For example 4.
 
-Then it returns the dates when the task should recur.  If we were to run the above example.
+Then it returns the dates when the task should recur.  
+
+
+
+If we were to run the above example.
 
 firstDate = "23/11/2016"
 k = 2
@@ -19,7 +23,6 @@ daysOfTheWeek = ["Monday", "Thursday"]
 n = 4
 
 The output will be as follows.
-
 ----------------------------------
 
 Based on the information received these are the dates of the recurring tasks: 
