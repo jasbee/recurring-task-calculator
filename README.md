@@ -2,9 +2,13 @@
 This function accepts 4 variables and calculates the dates when a task should recur.
 
 The input variables:
+
 firstDate - this is the first possible date when the task could recur.  For example "23/11/2016".  It uses the dd/mm/yyyy format.
+
 k - an interval of weeks to repeat.  For example 2 would repeat every other week.
+
 daysOfTheWeek - a list of weekdays to repeat on.  For example ["Monday", "Thursday"]. 
+
 n - a number of times to repeat.  For example 4.
 
 Then it returns the dates when the task should recur.  If we were to run the above example.
